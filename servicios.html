@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,700,900|Raleway:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    
+      <header class="encabezado-sitio container">
+        <div class="row justify-content-md-between align-items-center">
+          <div class="col-12 col-md-7 col-lg-4">
+            <a href="index.html">
+              <img src="img/logo.svg" class="img-fluid mx-auto d-block">
+            </a>
+          </div> <!-- col -->
+          <div class="col-12 col-md-3 col-lg-4 text-center mt-2">
+            <nav class="sociales"> <!-- nav.sociales>ul>li*5>a -->
+              <ul>
+                <li>
+                  <a href="http://facebook.com"> 
+                    <!-- sr-only, personas con discapacidad -->
+                    <i class="icono fab fa-facebook-f"></i>
+                    <span class="sr-only">Facebook
+                  </a>
+                </li>
+                <li>
+                  <a href="http://twitter.com"> 
+                    <i class="icono fab fa-twitter"></i>
+                    <span class="sr-only">twitter
+                  </a>
+                </li>
+                <li>
+                  <a href="http://instagram.com">
+                    <i class="icono fab fa-instagram"></i>
+                    <span class="sr-only">Instagram
+                  </a>
+                </li>
+                <li>
+                  <a href="http://pinterest.com">
+                    <i class="icono fab fa-pinterest"></i>
+                    <span class="sr-only">pinterest
+                  </a>
+                </li>
+                <li>
+                  <a href="http://youtube.com">
+                    <i class="icono fab fa-youtube"></i>
+                    <span class="sr-only">youtube
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div> <!-- col -->
+        </div><!-- row -->
+      </header>
+
+      <div class="navegacion mt-4 py-1">
+        <!-- nav.nav-principal.navbar.navbar-expand.navbar-light.bg-faded -->
+        <nav class="nav-principal navbar navbar-expand-md navbar-light bg-faded">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_principal" aria-label="Mostrar Navegacion">
+            <!-- icono hambuerguesa -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- menú responsive aquí -->
+          <a href="#" class="navbar-brand d-md-none">Carolina Spa</a>
+          <div class="container">
+              <div class="collapse navbar-collapse w-100" id="nav_principal">
+                  <!--nav-justified w-100 expandir menu-->
+                  <ul class="nav nav-justified w-100 flex-column flex-sm-row">
+                      <!-- li.nav-item>a.nav-link*5-->
+                      <li class="nav-item">
+                          <a href="index.html" class="nav-link">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="nosotros.html" class="nav-link">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="servicios.html" class="nav-link">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="productos.html" class="nav-link">Productos</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="contacto.html" class="nav-link">Contacto</a>
+                      </li>
+                  </ul>
+              </div><!-- collapse -->
+          </div><!-- container -->
+        </nav>
+      </div><!-- navegacion -->
+
+      <!-- en un dispitivo grande se muestra este -->
+      <div class="container pt-4">
+          <!-- sin padding por defecto -->
+          <div class="row no-gutters">
+            <div class="col-12 hero">
+                <img src="img/servicios.jpg" alt="nosotros" class="img-fluid">
+                <h2 class="text-uppercase d-none d-md-block py-3 px-5">Servicios</h2>
+            </div>
+          </div>
+      </div>
+
+      <!-- en un dispitivo pequeño se muestra este -->
+      <div class="container">
+          <div class="row mt-3 mb-5">
+              <main class="col-12 col-sm-7 col-lg-8 principal-content">
+                <!-- d-block en sm y a partir de md no -->
+                  <h2 class="d-block d-md-none text-uppercase text-center nosotros-small">
+                    Servicios
+                  </h2>
+                  <!-- servicios -->
+                  <div id="servicios">
+                      <div class="card">
+                          <div class="card-header" id="servicio1">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion1" aria-expanded="true" aria-controls="#descripcion1">
+                                      Servicio 1
+                                  </button>
+                              </h2>
+                          </div> <!-- card-header -->
+                          <div id="descripcion1" class="collapse show" aria-labelledby="servicio1" data-parent="#servicios">
+                              <div class="card-body">
+                                  <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus provident cupiditate ab magni tenetur exercitationem, excepturi optio sit nisi doloremque quod perferendis aspernatur obcaecati quam! Saepe dolor voluptate quod laudantium!
+                                  </p>
+                              </div><!-- card-body -->
+                          </div>
+                      </div><!-- card -->
+
+                      <div class="card">
+                        <div class="card-header" id="servicio2">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion2" aria-expanded="false" aria-controls="#descripcion2">
+                                    Servicio 2
+                                </button>
+                            </h2>
+                        </div> <!-- card-header -->
+                        <div id="descripcion2" class="collapse" aria-labelledby="servicio2" data-parent="#servicios">
+                            <div class="card-body">
+                                <p>
+                                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus provident cupiditate ab magni tenetur exercitationem, excepturi optio sit nisi doloremque quod perferendis aspernatur obcaecati quam! Saepe dolor voluptate quod laudantium!
+                                </p>
+                            </div><!-- card-body -->
+                        </div>
+                      </div><!-- card -->
+
+                      <div class="card">
+                        <div class="card-header" id="servicio3">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#descripcion3" aria-expanded="false" aria-controls="#descripcion3">
+                                    Servicio 3
+                                </button>
+                            </h2>
+                        </div> <!-- card-header -->
+                        <div id="descripcion3" class="collapse" aria-labelledby="servicio3" data-parent="#servicios">
+                            <div class="card-body">
+                                <p>
+                                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus provident cupiditate ab magni tenetur exercitationem, excepturi optio sit nisi doloremque quod perferendis aspernatur obcaecati quam! Saepe dolor voluptate quod laudantium!
+                                </p>
+                            </div><!-- card-body -->
+                        </div>
+                      </div><!-- card -->
+                  </div><!-- servicios -->
+              </main>
+
+              <aside class="col-12 col-sm-5 col-lg-4 pt-4 pt-lg-0 mt-3 mt-sm-0">
+                  <div class="sidebar p-3">
+                      <h2 class="text-center text-uppercase mt-4 blanco">Nuevos Clientes</h2>
+                      <p class="lead text-center mt-4 blanco">
+                          Recibe 20% de descuento con este cupón
+                      </p>
+                      
+                      <div class="cupon px-2 py-5 mt-5">
+                          <p class="text-uppercase text-center mb-0 blanco">
+                              <span class="display-4 blanco">20% descuento</span><br>en todos los servicios
+                          </p>
+                      </div>
+                  </div>
+              </aside>
+          </div><!-- row -->
+      </div><!-- container -->
+
+      <!-- CITAS -->
+      <div class="citas container-fluid py-5">
+          <div class="row justify-content-center"><!-- centro todo de one -->
+              <div class="col-md-8 col-lg-6 text-center">
+                  <h3 class="text-uppercase">Realiza una Cita</h3>
+                  <p class="mt-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam accusantium debitis laboriosam eos, asperiores quos ipsam distinctio modi! Temporibus, quisquam recusandae? Velit nisi reiciendis voluptates?</p>
+                  <a href="#" class="btn btn-primary mt-3 btn-lg text-uppercase">Leer más</a>
+              </div>
+          </div>
+      </div><!-- container -->
+
+      <!-- FOOTER -->
+      <footer class="footer pt-3 mt-4">
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-4 col-md-4">
+                      <h3 class="text-center text-uppercase pb-4">Nosotros</h3>
+                      <p class="text-justify lead">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, eius! Quaerat ea dolorem debitis quae ut facilis distinctio, aut perferendis quas illo.
+                      </p>
+                  </div>
+                  <div class="col-sm-4 col-md-4 text-center">
+                    <h3 class="text-uppercase pb-4">Horario</h3>
+                    <p class="lead">Lun-Vie 9AM-7PM</p>
+                    <p class="lead">Sabado 9AM-12PM</p>
+                    <p class="lead">Domingo:Cerrado</p>
+                  </div><!-- col -->
+                  <div class="col-sm-4 col-md-4 text-center">
+                    <h3 class="text-uppercase pb-4 pt-4 pt-md-0">Contacto</h3>
+                    <p>66 East Sunnyslope Avenue</p>
+                    <p>Landsdowne, PA 19050</p>
+                    <nav class="sociales"> <!-- nav.sociales>ul>li*5>a -->
+                      <ul>
+                        <li>
+                          <a href="http://facebook.com"> 
+                            <!-- sr-only, personas con discapacidad -->
+                            <i class="icono fab fa-facebook-f"></i>
+                            <span class="sr-only">Facebook
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://twitter.com"> 
+                            <i class="icono fab fa-twitter"></i>
+                            <span class="sr-only">twitter
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://instagram.com">
+                            <i class="icono fab fa-instagram"></i>
+                            <span class="sr-only">Instagram
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://pinterest.com">
+                            <i class="icono fab fa-pinterest"></i>
+                            <span class="sr-only">pinterest
+                          </a>
+                        </li>
+                        <li>
+                          <a href="http://youtube.com">
+                            <i class="icono fab fa-youtube"></i>
+                            <span class="sr-only">youtube
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div><!-- col-md-4 -->
+                <hr class="w-100">
+                <p class="text-center copyright w-100">Carolina Spa & Salón 2018.Todos los derechos reservados.</p>
+              </div><!-- row -->
+          </div><!-- container -->
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
