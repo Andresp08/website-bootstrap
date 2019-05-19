@@ -1,19 +1,6 @@
-# Bootstrap 4 Start Template
-Kick Start your Bootstrap 4 Project with this lightweight template, it only loads the require bootstrap files plus a stylesheet and a javascript file for your custom code.
+#########Descripción del Proyecto######
 
-## Instructions
+# Sitio web con Bootstrap 4
+ Proyecto real usando Bootstrap en su ultima versión, haciendo uso además de un script  para validar formularios, y archivos css personalizados para mejorar el estilo.
 
-- Download this project
-- Decompress
-- Change directory name
-- Build Something great
 
-# Template Bootstrap 4
-Inicia tu proyecto con este template ligero, solo viene con los archivos necesarios, así como una hoja de estilos y una archivo javascript para tu código.
-
-## Instrucciones
-
-- Descarga este proyecto
-- Descomprime
-- Cambia el nombre del proyecto
-- Crea algo increible!
